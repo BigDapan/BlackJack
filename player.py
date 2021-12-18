@@ -3,6 +3,8 @@ class player:
     def __init__(self,pseudo,cashstart):
         self.pseudo = pseudo
         self.money = cashstart
+        self.handcards = []
+        self.handvalue = 0
 
     def addcash(self,amount):
         self.money += amount
